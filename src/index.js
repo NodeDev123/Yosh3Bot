@@ -14,7 +14,7 @@ import { v4 as uuid } from "uuid";
 dotenv.config();
 
 const BOT_TOKEN = process.env.BOT_TOKEN || "";
-// const ENVIRONMENT = process.env.NODE_ENV || "";
+// const ENVIRONMENT = process.env.NODE_ENV || "" /;
 
 const isAdmin = (id) => [1782278519, 6227863810].includes(id);
 
